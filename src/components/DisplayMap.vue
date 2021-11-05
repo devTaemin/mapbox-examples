@@ -21,6 +21,7 @@ export default ({
     data() {
         return {
             accessToken: mapboxToken,
+            
         }
     },
 
@@ -36,7 +37,7 @@ export default ({
                 [126.604, 36.8156],         // []
                 [127.104, 37.8156],
             ],
-        })
+        });
     }
 })
 </script>
@@ -44,23 +45,5 @@ export default ({
 
 <style scoped>
 
-.mapHeader {
-    margin-bottom: 30px;
-    font-size: 20px;
-    font-weight: 600;
-}
 
-.mapContent {
-    display: flex;
-    justify-content: center;
-}
-
-.basemap {
-    width: 70vw;
-    height: 50vh;
-    border: 3px solid rgba(0, 0, 0, 0.2);
-    display: flex;
-    box-sizing: border-box;
-    
-}
 </style>
