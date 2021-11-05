@@ -2,6 +2,8 @@
 node_modules
 /dist
 
+#mapbox Token file
+mapboxToken.js
 
 # local env files
 .env.local
